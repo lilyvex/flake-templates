@@ -1,5 +1,5 @@
 [package]
-name = "Rust project with Nix flake"
+name = "rust-with-nix"
 version = "0.1.0"
 edition = "2024"
 
