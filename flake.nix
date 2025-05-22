@@ -18,7 +18,7 @@
         description = "C++ Meson template with Clang";
       };
 
-      defaultTemplate = self.templates.rust;
+      default = self.templates.rust;
     };
   };
 }
