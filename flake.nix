@@ -18,6 +18,11 @@
         description = "C++ Meson template with Clang";
       };
 
+      c-meson = {
+        path = ./c-meson;
+        description = "C Meson template with Clang";
+      };
+
       default = self.templates.rust;
     };
   };
