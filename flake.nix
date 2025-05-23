@@ -23,6 +23,11 @@
         description = "C Meson template with Clang";
       };
 
+      latex = {
+        path = ./latex;
+        description = "LaTeX template";
+      };
+
       default = self.templates.rust;
     };
   };
