@@ -28,6 +28,11 @@
         description = "LaTeX template";
       };
 
+      nodejs = {
+        path = ./nodejs;
+        description = "NodeJS template";
+      };
+
       default = self.templates.rust;
     };
   };
